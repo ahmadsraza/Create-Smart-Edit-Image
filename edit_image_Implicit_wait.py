@@ -2,7 +2,6 @@ from selenium import webdriver
 from selenium.webdriver.chrome.webdriver import WebDriver
 from selenium.webdriver.common.by import By
 
-
 class DemoImplicitWait():
     def demo_imp_wait(self):
         driver: WebDriver = webdriver.Chrome()
