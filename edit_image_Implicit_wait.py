@@ -5,6 +5,7 @@ from selenium.webdriver.common.by import By
 class DemoImplicitWait():
     def demo_imp_wait(self):
         driver: WebDriver = webdriver.Chrome()
+
         
         driver.implicitly_wait(10)
         driver.get("https://app.createsmart.io/login")
