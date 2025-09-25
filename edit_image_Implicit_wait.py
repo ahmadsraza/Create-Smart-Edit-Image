@@ -6,7 +6,6 @@ class DemoImplicitWait():
     def demo_imp_wait(self):
         driver: WebDriver = webdriver.Chrome()
 
-        
         driver.implicitly_wait(10)
         driver.get("https://app.createsmart.io/login")
         driver.find_element(By.XPATH, "//input[@id='mui-4']").send_keys("omar.moazzam@bssuniversal.com")
